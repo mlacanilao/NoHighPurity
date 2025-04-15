@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+  <title>No High Purity</title>
+  <id>omegaplatinum.elin.nohighpurity</id>
+  <author>OmegaPlatinum</author>
+  <loadPriority>100</loadPriority>
+  <description>
+    Removes the "High Purity" trait from items.
+    アイテムから「高純度」特性を削除します。
+
+    [h1] Features [/h1]
+    [list]
+    [*] Automatically removes the "High Purity" trait from items.
+    [/list]
+
+    [h1] Compatibility [/h1]
+    This mod works with existing save files.
+
+    Supports Game Version: 0.23.120
+
+    [h1] 特徴 [/h1]
+    [list]
+    [*] アイテムから「高純度」特性を自動的に削除します。
+    [/list]
+
+    [h1] 互換性 [/h1]
+    このMODは既存のセーブデータと完全に互換性があり、新しいプレイスルーは不要です。
+
+    対応ゲームバージョン: 0.23.120
+  </description>
+  <tags>General, Balance</tags>
+  <visibility>Public</visibility>
+  <version>0.23.120</version>
+</Meta>
