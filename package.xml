@@ -11,6 +11,8 @@
     [h1] Features [/h1]
     [list]
     [*] Automatically removes the "High Purity" trait from items.
+    [*] Items with the "High Purity" trait cannot be duplicated using characters like Kettle or Demitas.
+    [*] This mod enables those items to be duplicated normally.
     [/list]
 
     [h1] Compatibility [/h1]
@@ -21,6 +23,8 @@
     [h1] 特徴 [/h1]
     [list]
     [*] アイテムから「高純度」特性を自動的に削除します。
+    [*] 「高純度」特性が付与されたアイテムは、ケトルやデミタスなどのキャラクターによる複製サービスが利用できません。
+    [*] このMODによって、対象アイテムは通常通り複製可能になります。
     [/list]
 
     [h1] 互換性 [/h1]
