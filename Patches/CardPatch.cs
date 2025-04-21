@@ -4,21 +4,7 @@ namespace NoHighPurity
     {
         internal static void CreatePostfix(Thing __instance)
         {
-            if (__instance?.elements?.dict == null)
-                return;
-
-            bool foundPurity = false;
-
-            foreach (Element element in __instance.elements.dict.Values)
-            {
-                if (element.id == 759)
-                {
-                    foundPurity = true;
-                    break;
-                }
-            }
-
-            if (foundPurity == true)
+            if (__instance?.elements?.dict?.ContainsKey(key: 759) == true)
             {
                 __instance.elements.SetTo(id: 759, v: 0);
             }
@@ -29,18 +15,7 @@ namespace NoHighPurity
             if (__instance?.elements?.dict == null)
                 return;
 
-            bool foundPurity = false;
-
-            foreach (Element element in __instance.elements.dict.Values)
-            {
-                if (element.id == 759)
-                {
-                    foundPurity = true;
-                    break;
-                }
-            }
-
-            if (foundPurity == true)
+            if (__instance.elements.dict.TryGetValue(key: 759, value: out _))
             {
                 __instance.elements.SetTo(id: 759, v: 0);
             }
