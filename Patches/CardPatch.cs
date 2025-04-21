@@ -4,20 +4,19 @@ namespace NoHighPurity
     {
         internal static void CreatePostfix(Thing __instance)
         {
-            if (__instance?.elements?.dict?.ContainsKey(key: 759) == true)
-            {
-                __instance.elements.SetTo(id: 759, v: 0);
-            }
+            RemoveHighPurityIfExists(instance: __instance);
         }
-        
+
         internal static void SetTierPostfix(Thing __instance)
         {
-            if (__instance?.elements?.dict == null)
-                return;
-
-            if (__instance.elements.dict.TryGetValue(key: 759, value: out _))
+            RemoveHighPurityIfExists(instance: __instance);
+        }
+        
+        private static void RemoveHighPurityIfExists(Thing instance)
+        {
+            if (instance?.elements?.dict?.ContainsKey(key: 759) == true)
             {
-                __instance.elements.SetTo(id: 759, v: 0);
+                instance.elements.SetTo(id: 759, v: 0);
             }
         }
     }

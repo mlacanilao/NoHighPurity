@@ -7,7 +7,7 @@ namespace NoHighPurity
     {
         internal const string Guid = "omegaplatinum.elin.nohighpurity";
         internal const string Name = "No High Purity";
-        internal const string Version = "1.0.2.1";
+        internal const string Version = "1.0.3.1";
     }
 
     [BepInPlugin(GUID: ModInfo.Guid, Name: ModInfo.Name, Version: ModInfo.Version)]
